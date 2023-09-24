@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --bg-color: #2FD05A;
+    --bg-danger: #DC3545;
+    --bg-light: #F2F1F7;
+}
+
+/* header start */
+header{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-light);
+    padding: 0 50px;
+}
+
+header input{
+    width: 50%;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 20px;
+    outline: none;
+}
+
+header .contact{
+    display: flex;
+    gap: 25px;
+}
+
+header .contact i{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+header .contact .fa-telegram{
+    color: dodgerblue;
+}
+
+header .contact .fa-moon{
+    color: gray;
+}
+
+header .register button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+}
+
+header .register .login{
+    background: var(--bg-color);
+}
+
+header .register .signup{
+    background: var(--bg-danger);
+}
+
+/* header end */
+
+/* navbar start */
+
+nav{
+    width: 100%;
+    height: 8vh;
+    padding: 0 50px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+/* navbar end */
